@@ -44,7 +44,10 @@ public partial class Pupil : MonoBehaviour
         }
     }
 
-
+    public bool isDialated
+    {
+        get { return m_currentDialation != defaultDialation; }
+    }
 
     
 
