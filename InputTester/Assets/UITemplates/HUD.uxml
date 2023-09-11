@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/USS/HUDSelectors.uss?fileID=7433441132597879392&amp;guid=aa59fef9496b53848a0c9157566f4fb5&amp;type=3#HUDSelectors" />
+    <ui:GroupBox picking-mode="Ignore" name="HUD" class="hud-background" style="flex-direction: column;">
+        <ui:GroupBox picking-mode="Ignore" name="BatteryContainer" style="flex-direction: row; width: 5%; height: 100%; margin-top: 0.5%; margin-right: 3%; margin-bottom: 0.25%; margin-left: 3%; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; align-items: center; visibility: visible; overflow: visible;">
+            <ui:GroupBox picking-mode="Ignore" name="ProgressContainer" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px; width: 100%; border-left-color: rgb(224, 224, 224); border-right-color: rgb(224, 224, 224); border-top-color: rgb(224, 224, 224); border-bottom-color: rgb(224, 224, 224); border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; align-self: auto; height: 100%; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;">
+                <ui:ProgressBar value="4" picking-mode="Ignore" name="HealthBar" high-value="4" />
+            </ui:GroupBox>
+            <ui:VisualElement picking-mode="Ignore" name="BatteryNub" style="flex-grow: 1; width: auto; height: 50%; background-color: rgb(224, 224, 224); min-width: 10%; min-height: 50%;" />
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>

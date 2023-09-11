@@ -1,0 +1,31 @@
+.unity-button {
+    width: 10%;
+    background-color: rgba(188, 188, 188, 0);
+    border-left-color: rgb(224, 224, 224);
+    border-right-color: rgb(224, 224, 224);
+    border-top-color: rgb(224, 224, 224);
+    border-bottom-color: rgb(224, 224, 224);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    color: rgb(224, 224, 224);
+    font-size: 20px;
+    -unity-font-style: bold;
+}
+
+.unity-button:focus {
+    width: 10%;
+    background-color: rgb(224, 224, 224);
+    border-left-color: rgb(224, 224, 224);
+    border-right-color: rgb(224, 224, 224);
+    border-top-color: rgb(224, 224, 224);
+    border-bottom-color: rgb(224, 224, 224);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    color: rgb(42, 117, 217);
+    font-size: 20px;
+    -unity-font-style: bold;
+}

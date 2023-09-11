@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="HUD" src="project://database/Assets/UITemplates/HUD.uxml?fileID=9197481963319205126&amp;guid=9d6e3648153b28745bd23d557ca86bff&amp;type=3#HUD" />
+    <Style src="project://database/Assets/USS/TheLabSelectors.uss?fileID=7433441132597879392&amp;guid=67e42c8e35d34c94cb926833ac4fa686&amp;type=3#TheLabSelectors" />
+    <Style src="project://database/Assets/USS/UnityButtonOverrides.uss?fileID=7433441132597879392&amp;guid=1d859a99577a8034e89f901315142c04&amp;type=3#UnityButtonOverrides" />
+    <Style src="project://database/Assets/USS/UnityToggleOverrides.uss?fileID=7433441132597879392&amp;guid=139f622f1291485489685f6d41a0739a&amp;type=3#UnityToggleOverrides" />
+    <Style src="project://database/Assets/USS/UnityDropdownOverrides.uss?fileID=7433441132597879392&amp;guid=cf761506d8c04a14ab3d4b4dc3cc40ed&amp;type=3#UnityDropdownOverrides" />
+    <Style src="project://database/Assets/USS/HUDSelectors.uss?fileID=7433441132597879392&amp;guid=aa59fef9496b53848a0c9157566f4fb5&amp;type=3#HUDSelectors" />
+    <ui:GroupBox name="Background" class="it-background">
+        <ui:GroupBox name="FalseWindow" focusable="false" class="it-window-main">
+            <ui:GroupBox name="WelcomeGroup" style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; height: 70%; flex-direction: row; min-height: 50%; justify-content: center; max-width: 100%; flex-wrap: wrap;">
+                <ui:GroupBox style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;">
+                    <ui:Label tabindex="-1" text="Welcome!" parse-escape-sequences="true" display-tooltip-when-elided="true" class="it-text-header" style="-unity-font: initial; color: rgb(224, 224, 224);" />
+                    <ui:Label tabindex="-1" text="Thanks for installing Windows 9.&#10;Before we begin, please tell us a bit about yourself." parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" class="it-text-subheader" />
+                </ui:GroupBox>
+            </ui:GroupBox>
+            <ui:DropdownField index="-1" choices="Hello,Darkness,My,Old,Friend" name="DropdownField" label="What will you be using this device for?" tabindex="1" style="max-width: 60%; min-width: 40%; width: 50%; flex-direction: column; -unity-font-style: bold; color: rgb(224, 224, 224);" />
+            <ui:VisualElement style="flex-grow: 1; width: 100%; max-height: 5%;" />
+            <ui:Toggle label="Use my data to &quot;Improve&quot; my &quot;Experience&quot; by any means necessary.  " tabindex="1" value="true" name="Toggle" style="-unity-font-style: bold; color: rgb(224, 224, 224);" />
+            <ui:GroupBox tabindex="1" focusable="false" class="it-nextbuttonbox">
+                <ui:Button text="Next" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button" tabindex="1" focusable="true" class="unity-button" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+    </ui:GroupBox>
+    <ui:Instance template="HUD" name="HUD" picking-mode="Ignore" class="hud-template-root" />
+</ui:UXML>

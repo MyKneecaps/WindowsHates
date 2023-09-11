@@ -1,0 +1,37 @@
+.unity-toggle {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.unity-toggle:focus {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-left-color: rgb(224, 224, 224);
+    border-right-color: rgb(224, 224, 224);
+    border-top-color: rgb(224, 224, 224);
+    border-bottom-color: rgb(224, 224, 224);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    color: rgb(224, 224, 224);
+}
+
+.unity-toggle__label {
+}
+
+.unity-toggle__label:focus {
+    color: rgb(224, 224, 224);
+}
+
+.unity-toggle__label:active {
+    color: rgb(224, 224, 224);
+}
+
+.unity-toggle__label:inactive {
+    color: rgb(224, 224, 224);
+}
